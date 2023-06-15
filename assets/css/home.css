@@ -1,0 +1,30 @@
+.body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: darkorange;
+}
+#contact-container{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+.contact{
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: aqua;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+}
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#new-contact-form{
+    text-align: center;
+}
